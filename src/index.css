@@ -1,0 +1,46 @@
+/* Resetting margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a global font style and background color */
+body {
+  font-family: Arial, sans-serif; /* Default font */
+  font-size: 16px; /* Default font size */
+  line-height: 1.6; /* Improve readability */
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px; /* Add some spacing below */
+  font-weight: bold; /* Make headings bold */
+  color: #222; /* Slightly darker heading color */
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 15px; /* Add spacing between paragraphs */
+}
+
+/* Links */
+a {
+  color: #007BFF; /* Standard link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* a:hover {
+  text-decoration: underline; 
+} */
+
+/* Lists */
+ul, ol {
+  padding-left: 20px; /* Indent for lists */
+}
+
+li {
+  margin-bottom: 5px; /* Space between list items */
+}
